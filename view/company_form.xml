@@ -10,6 +10,8 @@ The COPYRIGHT file at the top level of this repository contains the full copyrig
             <field name="invoice_qty"/>
             <label name="sale_qty"/>
             <field name="sale_qty"/>
+            <label name="purchase_qty"/>
+            <field name="purchase_qty"/>
             <label name="shipment_qty"/>
             <field name="shipment_qty"/>
         </group>

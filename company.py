@@ -12,4 +12,5 @@ class Company:
     __name__ = 'company.company'
     invoice_qty = fields.Boolean('Invoice Qty', help='Show qty without decimals')
     sale_qty = fields.Boolean('Sale Qty', help='Show qty without decimals')
+    purchase_qty = fields.Boolean('Purchase Qty', help='Show qty without decimals')
     shipment_qty = fields.Boolean('Shipment Qty', help='Show qty without decimals')
