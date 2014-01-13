@@ -1,0 +1,27 @@
+# 
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:company.company,invoice_qty:"
+msgid "Invoice Qty"
+msgstr "Cantidad Factura"
+
+msgctxt "field:company.company,sale_qty:"
+msgid "Sale Qty"
+msgstr "Cantidad Pedido venta"
+
+msgctxt "field:company.company,shipment_qty:"
+msgid "Shipment Qty"
+msgstr "Cantidad Albarán"
+
+msgctxt "help:company.company,invoice_qty:"
+msgid "Show qty without decimals"
+msgstr "Muestra las cantidades sin decimales"
+
+msgctxt "help:company.company,sale_qty:"
+msgid "Show qty without decimals"
+msgstr "Muestra las cantidades sin decimales"
+
+msgctxt "help:company.company,shipment_qty:"
+msgid "Show qty without decimals"
+msgstr "Muestra las cantidades sin decimales"

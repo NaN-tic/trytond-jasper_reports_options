@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!-- This file is part jasper_reports_options module for Tryton.
+The COPYRIGHT file at the top level of this repository contains the full copyright notices and license terms. -->
+<data>
+    <xpath
+        expr="/form/notebook/page[@id='reports']"
+        position="inside">
+        <group col="6" colspan="6" id="report_qty">
+            <label name="invoice_qty"/>
+            <field name="invoice_qty"/>
+            <label name="sale_qty"/>
+            <field name="sale_qty"/>
+            <label name="shipment_qty"/>
+            <field name="shipment_qty"/>
+        </group>
+    </xpath>
+</data>
