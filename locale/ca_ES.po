@@ -6,6 +6,10 @@ msgctxt "field:company.company,invoice_qty:"
 msgid "Invoice Qty"
 msgstr "Quantitat Factura"
 
+msgctxt "field:company.company,purchase_qty:"
+msgid "Purchase Qty"
+msgstr "Quantitat Compra"
+
 msgctxt "field:company.company,sale_qty:"
 msgid "Sale Qty"
 msgstr "Quantitat Venda"
@@ -15,6 +19,10 @@ msgid "Shipment Qty"
 msgstr "Quantitat Albarà"
 
 msgctxt "help:company.company,invoice_qty:"
+msgid "Show qty without decimals"
+msgstr "Mostra les quantitats sense decimals"
+
+msgctxt "help:company.company,purchase_qty:"
 msgid "Show qty without decimals"
 msgstr "Mostra les quantitats sense decimals"
 
