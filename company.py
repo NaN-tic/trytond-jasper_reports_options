@@ -14,3 +14,6 @@ class Company:
     sale_qty = fields.Boolean('Sale Qty', help='Show qty without decimals')
     purchase_qty = fields.Boolean('Purchase Qty', help='Show qty without decimals')
     shipment_qty = fields.Boolean('Shipment Qty', help='Show qty without decimals')
+    invoice_header = fields.Char('Invoice Header')
+    invoice_footer = fields.Char('Invoice Footer')
+    invoice_background = fields.Char('Invoice Background')

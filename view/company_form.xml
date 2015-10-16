@@ -6,6 +6,12 @@ The COPYRIGHT file at the top level of this repository contains the full copyrig
         expr="/form/notebook/page[@id='reports']"
         position="inside">
         <group col="6" colspan="6" id="report_qty">
+            <label name="invoice_header"/>
+            <field name="invoice_header"/>
+            <label name="invoice_footer"/>
+            <field name="invoice_footer"/>
+            <label name="invoice_background"/>
+            <field name="invoice_background"/>
             <label name="invoice_qty"/>
             <field name="invoice_qty"/>
             <label name="sale_qty"/>
