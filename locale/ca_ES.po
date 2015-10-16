@@ -1,6 +1,18 @@
-# 
+#
 msgid ""
 msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:company.company,invoice_background:"
+msgid "Invoice Background"
+msgstr "Factura fons de pàgina"
+
+msgctxt "field:company.company,invoice_footer:"
+msgid "Invoice Footer"
+msgstr "Factura peu de pàgina"
+
+msgctxt "field:company.company,invoice_header:"
+msgid "Invoice Header"
+msgstr "Factura encapçalat de pàgina"
 
 msgctxt "field:company.company,invoice_qty:"
 msgid "Invoice Qty"
