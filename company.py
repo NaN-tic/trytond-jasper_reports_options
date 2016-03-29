@@ -5,10 +5,10 @@ from trytond.model import fields
 from trytond.pool import PoolMeta
 
 __all__ = ['Company']
-__metaclass__ = PoolMeta
 
 
 class Company:
+    __metaclass__ = PoolMeta
     __name__ = 'company.company'
     invoice_qty = fields.Boolean('Invoice Qty', help='Show qty without decimals')
     sale_qty = fields.Boolean('Sale Qty', help='Show qty without decimals')
