@@ -20,6 +20,8 @@ The COPYRIGHT file at the top level of this repository contains the full copyrig
             <field name="purchase_qty"/>
             <label name="shipment_qty"/>
             <field name="shipment_qty"/>
+            <label name="show_uom"/>
+            <field name="show_uom"/>
         </group>
     </xpath>
 </data>

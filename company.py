@@ -17,3 +17,4 @@ class Company:
     invoice_header = fields.Char('Invoice Header', translate=True)
     invoice_footer = fields.Char('Invoice Footer', translate=True)
     invoice_background = fields.Char('Invoice Background', translate=True)
+    show_uom = fields.Boolean('Show UoM', help='Show the UoM')
