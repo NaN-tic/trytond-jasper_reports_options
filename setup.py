@@ -12,7 +12,9 @@ try:
 except ImportError:
     from ConfigParser import ConfigParser
 
-MODULE2PREFIX = {}
+MODULE2PREFIX = {
+    'jasper_reports': 'trytonspain',
+}
 
 
 def read(fname):
