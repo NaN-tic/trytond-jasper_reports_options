@@ -22,6 +22,8 @@ The COPYRIGHT file at the top level of this repository contains the full copyrig
             <field name="shipment_qty"/>
             <label name="show_uom"/>
             <field name="show_uom"/>
+            <label name="show_origins"/>
+            <field name="show_origins"/>
         </group>
     </xpath>
 </data>
