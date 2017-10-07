@@ -30,6 +30,10 @@ msgctxt "field:company.company,shipment_qty:"
 msgid "Shipment Qty"
 msgstr "Cantidad Albarán"
 
+msgctxt "field:company.company,show_origins:"
+msgid "Show Origins"
+msgstr "Mostrar orígenes"
+
 msgctxt "field:company.company,show_uom:"
 msgid "Show UoM"
 msgstr "Mostrar UdM"
@@ -49,6 +53,10 @@ msgstr "Muestra las cantidades sin decimales"
 msgctxt "help:company.company,shipment_qty:"
 msgid "Show qty without decimals"
 msgstr "Muestra las cantidades sin decimales"
+
+msgctxt "help:company.company,show_origins:"
+msgid "Show the origins"
+msgstr "Mostra els orígens"
 
 msgctxt "help:company.company,show_uom:"
 msgid "Show the UoM"
