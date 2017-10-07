@@ -32,7 +32,7 @@ msgstr "Quantitat Albarà"
 
 msgctxt "field:company.company,show_origins:"
 msgid "Show Origins"
-msgstr "Mostrar orígenes"
+msgstr "Mostra orígenes"
 
 msgctxt "field:company.company,show_uom:"
 msgid "Show UoM"
