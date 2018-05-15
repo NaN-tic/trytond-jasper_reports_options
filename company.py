@@ -5,10 +5,10 @@ from trytond.model import fields
 from trytond.pool import PoolMeta
 
 __all__ = ['Company']
-__metaclass__ = PoolMeta
 
 
 class Company:
+    __metaclass__ = PoolMeta
     __name__ = 'company.company'
     invoice_qty = fields.Boolean('Invoice Qty', help='Show qty without decimals')
     sale_qty = fields.Boolean('Sale Qty', help='Show qty without decimals')
@@ -17,3 +17,7 @@ class Company:
     invoice_header = fields.Char('Invoice Header', translate=True)
     invoice_footer = fields.Char('Invoice Footer', translate=True)
     invoice_background = fields.Char('Invoice Background', translate=True)
+    show_uom = fields.Boolean('Show UoM', help='Show the UoM')
+    show_origins = fields.Boolean('Show Origins', help='Show the origins')
+    rgpd = fields.Char('RGPD', translate=True,
+        help='Reglamento General de Proteccion de Datos (RGPD)')
