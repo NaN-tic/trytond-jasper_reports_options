@@ -24,6 +24,8 @@ The COPYRIGHT file at the top level of this repository contains the full copyrig
             <field name="show_uom"/>
             <label name="show_origins"/>
             <field name="show_origins"/>
+            <label name="rgpd"/>
+            <field name="rgpd"/>
         </group>
     </xpath>
 </data>

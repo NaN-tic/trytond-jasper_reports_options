@@ -22,3 +22,5 @@ class Company:
     invoice_background = fields.Char('Invoice Background', translate=True)
     show_uom = fields.Boolean('Show UoM', help='Show the UoM')
     show_origins = fields.Boolean('Show Origins', help='Show the origins')
+    rgpd = fields.Char('RGPD', translate=True,
+        help='Reglamento General de Proteccion de Datos (RGPD)')
