@@ -3,10 +3,10 @@
 # the full copyright notices and license terms.
 
 from trytond.pool import Pool
-from .company import *
+from . import company
 
 
 def register():
     Pool.register(
-        Company,
+        company.Company,
         module='jasper_reports_options', type_='model')
